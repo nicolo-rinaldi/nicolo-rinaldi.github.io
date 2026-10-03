@@ -1,0 +1,25 @@
+# My posts on the Sease blog (https://sease.io/our-blog). Newest first.
+- date: 2026-10-01
+  title: "Understanding Embeddings in the Italian Language – Part 3"
+  url: https://sease.io/2026/10/understanding-embeddings-in-the-italian-language-part-3.html
+- date: 2026-09-24
+  title: "Understanding Embeddings in the Italian Language – Part 2"
+  url: https://sease.io/2026/09/understanding-embeddings-in-the-italian-language-part-2.html
+- date: 2026-09-17
+  title: "Understanding Embeddings in the Italian Language – Part 1"
+  url: https://sease.io/2026/09/understanding-vector-embeddings-in-the-italian-language-part-1.html
+- date: 2026-07-17
+  title: "Vector Search Doctor (Part 2): Bridging the Gap Between Theory and Practice in Vector Search"
+  url: https://sease.io/2026/07/vector-search-doctor-part-2-bridging-the-gap-between-theory-and-practice-in-vector-search.html
+- date: 2026-05-15
+  title: "Benchmarking JSON Facet Methods in Apache Solr"
+  url: https://sease.io/2026/05/solr-benchmark-faceting-methods.html
+- date: 2026-04-01
+  title: "Colbert Comes to Apache Solr: Implementation and Tutorial of Late Interaction Model Reranking"
+  url: https://sease.io/2026/04/late-interaction-comes-to-solr-implementation-and-tutorial.html
+- date: 2026-04-01
+  title: "Late Interaction Comes to Solr: Neural Reranking Introduction"
+  url: https://sease.io/2026/04/late-interaction-comes-to-solr-neural-reranking-introduction.html
+- date: 2026-02-17
+  title: "Apache Solr Multivalued Vectors Tutorial"
+  url: https://sease.io/2026/02/apache-solr-multivalued-vectors-tutorial.html

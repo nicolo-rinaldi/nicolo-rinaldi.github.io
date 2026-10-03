@@ -1,0 +1,11 @@
+---
+layout: default
+title: Blog
+---
+<h2>Blog</h2>
+<p class="muted">Articles I wrote for the <a href="https://sease.io/our-blog" target="_blank" rel="noopener">Sease blog</a>.</p>
+<ul class="list">
+{% for post in site.data.blog %}
+  <li><span class="muted">{{ post.date | date: '%B %-d, %Y' }}</span> · <a href="{{ post.url }}" target="_blank" rel="noopener">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
