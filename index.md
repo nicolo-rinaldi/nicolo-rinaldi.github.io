@@ -10,7 +10,7 @@ layout: default
   </p>
 </div>
 
-I am a Software Engineer and Data Scientist at [Sease](https://sease.io), where I work on search: Apache Solr, Opensearch/Elasticsearch, Vespa.ai, vector search, embedding models and neural reranking.
+I am a Software Engineer and Data Scientist at [Sease](https://sease.io), where I work on search: Apache Solr, Opensearch/Elasticsearch, Vespa.ai, vector search, Large Language Models (LLMs), embedding models and neural reranking.
 
 I earned my Bachelor's degree in Mathematics from the University of Bologna and a Master's degree in Data Science from the University of Padua. For my Master's thesis I built a semantic search system for the Italian language, which is where I first got into Information Retrieval.
 
