@@ -1,0 +1,13 @@
+# Open source contributions. Newest first.
+- title: "Document Enrichment with LLMs"
+  project: Apache Solr
+  date: 2026-08-04
+  url: https://github.com/apache/solr/pull/4259
+  issue: { name: SOLR-18187, url: "https://issues.apache.org/jira/browse/SOLR-18187" }
+  description: >-
+    Brings LLMs into Solr's indexing pipeline. A new update processor in the
+    language-models module builds a prompt from one or more document fields,
+    sends it to an LLM through LangChain4j, and writes the answer into an output
+    field. Structured output makes the response match the field type (string,
+    text, numeric, boolean or date, single or multivalued), so documents can be
+    enriched with categories, tags and other metadata at index time.

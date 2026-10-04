@@ -1,0 +1,15 @@
+---
+layout: default
+title: Contributions
+---
+<h2>Contributions</h2>
+<p class="muted">Open source work I contributed to.</p>
+<ul class="list">
+{% for c in site.data.contributions %}
+  <li>
+    <a href="{{ c.url }}" target="_blank" rel="noopener"><strong>{{ c.title }}</strong></a>
+    <span class="muted">· {{ c.project }} · {{ c.date | date: '%B %-d, %Y' }}{% if c.issue %} · <a href="{{ c.issue.url }}" target="_blank" rel="noopener">{{ c.issue.name }}</a>{% endif %}</span>
+    <p>{{ c.description }}</p>
+  </li>
+{% endfor %}
+</ul>

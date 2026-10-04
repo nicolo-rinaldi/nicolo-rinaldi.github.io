@@ -1,11 +1,11 @@
 title: Nicolò Rinaldi
 author: Nicolò Rinaldi
-description: Junior Software Engineer / Data Scientist at Sease
-tagline: Junior Software Engineer / Data Scientist at Sease
+description: Software Engineer / Data Scientist at Sease
+tagline: Software Engineer / Data Scientist at Sease
 url: https://nicolo-rinaldi.github.io
 
-# Path to your CV (e.g. cv.pdf in the repo root). Leave empty to hide the RESUME link.
-cv:
+# CV opened by the RESUME link. Replace cv.pdf with the real one (same name). Empty = link hidden.
+cv: cv_Nicolo_Rinaldi.pdf
 
 # Icons: https://fontawesome.com/search?ic=free
 social:
