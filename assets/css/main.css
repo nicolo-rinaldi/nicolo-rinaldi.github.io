@@ -1,7 +1,28 @@
 :root {
+  color-scheme: light;
   --accent: #6b9e7a;
   --accent-dark: #527a5e;
   --muted: #6b6b6b;
+  --text: #222;
+  --bg: #fff;
+}
+
+/* Dark theme: follows the operating system, unless the toggle forced a theme (data-theme on <html>) */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --accent-dark: #8fbf9d;
+    --muted: #9a9a9a;
+    --text: #e4e4e4;
+    --bg: #151816;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --accent-dark: #8fbf9d;
+  --muted: #9a9a9a;
+  --text: #e4e4e4;
+  --bg: #151816;
 }
 
 * { box-sizing: border-box; }
@@ -11,11 +32,9 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  font: 18px/1.6 'Source Sans 3', sans-serif;
-  color: #222;
-  background: #fff;
-  border-top: 3px solid var(--accent);
-  border-bottom: 5px solid var(--accent);
+  font: 18px/1.6 'Inconsolata', monospace;
+  color: var(--text);
+  background: var(--bg);
   overflow-wrap: break-word;
 }
 
@@ -26,6 +45,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
+  align-items: center;
   gap: 1.5rem;
   width: 100%;
   max-width: 1024px;
@@ -35,6 +55,16 @@ nav {
   text-transform: uppercase;
 }
 nav a { color: var(--muted); }
+nav .brand { margin-right: auto; color: var(--text); font-size: 1.4rem; font-weight: 700; text-transform: none; }
+nav .brand span { color: var(--accent); }
+/* Phones: one item per row, centered; theme toggle stays in the top-right corner */
+@media (max-width: 600px) {
+  nav { position: relative; flex-direction: column; gap: 1.25rem; padding-top: 1.25rem; }
+  nav .brand { margin-right: 0; }
+  .theme-toggle { position: absolute; top: 1.25rem; right: 16px; display: flex; align-items: center; height: 2.24rem; /* = brand line height */ }
+}
+.theme-toggle { padding: 0; border: 0; background: none; color: var(--muted); font: inherit; cursor: pointer; }
+.theme-toggle:hover { color: var(--accent); }
 
 main {
   flex: 1;
@@ -43,7 +73,6 @@ main {
   margin: 0 auto;
   padding: 0 16px 3rem;
 }
-main > p { text-align: justify; }
 
 footer { padding: 1.5rem; text-align: center; color: var(--muted); font-size: .9rem; }
 
@@ -52,7 +81,7 @@ footer { padding: 1.5rem; text-align: center; color: var(--muted); font-size: .9
 .avatar { width: 200px; height: 200px; border-radius: 50%; object-fit: cover; }
 .about h1 { margin: .5rem 0 0; font-size: 2.5rem; font-weight: 300; }
 .social { font-size: 1.4rem; }
-.social a { margin: 0 .6rem; color: #000; }
+.social a { margin: 0 .6rem; color: var(--text); }
 
 /* Blog, contributions */
 .list { list-style: none; padding: 0; }
