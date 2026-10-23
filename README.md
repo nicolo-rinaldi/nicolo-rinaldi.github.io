@@ -6,7 +6,7 @@ Personal website, built by GitHub Pages with Jekyll. Live at https://nicolo-rina
 |---|---|
 | Name, tagline, social links, CV | `_config.yml` |
 | Bio (home page) | `index.md` |
-| Blog links (Sease articles) | `_data/blog.yml` |
+| Blog links (Sease articles) | `_data/blog_sease.yml` |
 | Contributions | `_data/contributions.yml` |
 | Style | `assets/css/main.css` |
 

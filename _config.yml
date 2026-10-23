@@ -11,7 +11,7 @@ cv: cv_Nicolo_Rinaldi.pdf
 social:
   - { name: LinkedIn, icon: fa-brands fa-linkedin, url: "https://www.linkedin.com/in/nicolo-rinaldi/" }
   - { name: GitHub, icon: fa-brands fa-github, url: "https://github.com/nicolo-rinaldi" }
-  # - { name: Email, icon: fa-solid fa-envelope, url: "mailto:you@example.com" }
+  - { name: Email, icon: fa-solid fa-envelope, url: "mailto:nicolo.rinaldi99@gmail.com" }
 
 plugins:
   - jekyll-seo-tag
